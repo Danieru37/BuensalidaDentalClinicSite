@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buensalida Dental Clinic</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="src/images/bdc_icon.ico">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    body {font-family: "Times New Roman", Georgia, Serif;}
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Playfair Display";
+      letter-spacing: 5px;
+    }
+  </style>
+</head>
+
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-sand w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button logo-container">
+      <img src="src/images/bdc_icon.png" alt="Buensalida Dental Clinic Logo" class="nav-img">
+      Buensalida Dental Clinic
+    </a>
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#services" class="w3-bar-item w3-button">Services</a>
+      <a href="#appoint" class="w3-bar-item w3-button">Appointment</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="src/images/front_clinic.jpg" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Le Catering</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="src/images/about-pic.jpg" class="w3-round w3-image" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About the dentist</h1><br>
+      <h5 class="w3-center">Dr. Ma. Zarina Buensalida</h5>
+      <p class="w3-large" style="text-align: center;">A graduate of <span style="font-weight: bold;">Bachelor of Science in Dentistry</span> at <span style="font-weight: bold;">Centro Escolar University (CEU).</span> A member of the <span style="font-weight: bold;">Kalookan City Dental Chapter (KCDC)</span> and an affiliate of <span style="font-weight: bold;">Filipino-Chinese Dental Chapter.</span> Dr. Zarina is a loving mother and an experienced dentist that has been in practice for 27 years and counting. </p><p class="w3-large" style="text-align: center;">She is dedicated to her craft and is ready to provide you with quality service that would guarantee to make you smile. At Buensalida Dental Clinic, we provide comprehensive and compassionate dental care to patients of all ages. We offer a wide variety of services from preventive care to cosmetic treatment.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium" style="text-align: center; font-style: italic;">"Your dental health and well-being are our top priorities."</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="services">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Services</h1><br>
+      <h4>Preventive</h4>
+      <p class="w3-text-grey">Oral prophylaxix, pits and fissure sealants, fluoride treatments, education and awareness, dietary choices</p><br>
+    
+      <h4>Restoration</h4>
+      <p class="w3-text-grey">Fillings, crown and bridges, root canal</p><br>
+    
+      <h4>Prosthetic</h4>
+      <p class="w3-text-grey">Dentures, oral splints, night guard</p><br>
+    
+      <h4>Orthodontict</h4>
+      <p class="w3-text-grey">Malocclusion, braces, clear aligners, retainers, orthognathic surgery, extraoral and intraoral appliance</p><br>
+    
+      <h4>Oral Surgery</h4>
+      <p class="w3-text-grey">Tooth extraction, wisdom tooth removal, biopsies, cleft lip and palate surgery, TMJ disorders, oral cancer treatment</p><br>
+      
+      <h4>Radiography</h4>
+      <p class="w3-text-grey">Periapical, panoramic, CBCT scans (referral)</p><br>    
+
+      <h4>Cosmetic</h4>
+      <p class="w3-text-grey">Teeth whitening, dental bonding, veneers, gum contouring, inlays and onlays, smile makeover</p>   
+
+    </div>
+    <br><br><br><br>
+    <div class="w3-col l6 w3-padding-large">
+      <img src="src/images/services-pic.png" class="w3-round w3-image" alt="services" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="appoint">
+    <h1>Appointment</h1><br>
+    <p>If you have any concerns with regards to our services, please contact 0917 723 2344 or email doczars.bdc@gmail.com. Buensalida Dental Clinic can also be found via Google Maps. The address is as stated:</p>
+    <p class="w3-text-brown w3-large"><b>32, 2nd Ave. West, Grace Park, Caloocan City, Philippines</b></p>
+    <p>You can also book you appointment below:</p>
+    <form action="send_email.php" method="post">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="email" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2025-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-sand w3-section" type="submit">SUBMIT</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
